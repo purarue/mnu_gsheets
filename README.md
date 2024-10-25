@@ -10,7 +10,7 @@ To install:
 
 ```bash
 # clone and cd to this directory
-git clone https://github.com/seanbreckenridge/mnu_gsheets
+git clone https://github.com/purarue/mnu_gsheets
 cd mnu_gsheets
 # install dependencies
 pip install pipenv

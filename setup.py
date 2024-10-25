@@ -8,9 +8,8 @@ with io.open("README.md", encoding="utf-8") as fo:
 setup(
     name="mnu_gsheets",
     version="0.1.0",
-    url="https://github.com/seanbreckenridge/mnu_gsheets",
-    author="Sean Breckenridge",
-    author_email="seanbrecke@gmail.com",
+    url="https://github.com/purarue/mnu_gsheets",
+    author="purarue",
     description=("""tracking obscure anime music videos"""),
     long_description=long_description,
     long_description_content_type="text/markdown",
