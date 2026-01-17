@@ -69,9 +69,9 @@ def create_mnu_row(mdat: MnuData) -> WorksheetRow:
                 _format_date(mdat.broadcast_start),
                 _format_date(mdat.broadcast_end),
                 "",  # live action: 1
-                "Y"
-                if LIVE_ACTION == mdat.credits.picture.strip()
-                else "",  # live action: 2
+                (
+                    "Y" if LIVE_ACTION == mdat.credits.picture.strip() else ""
+                ),  # live action: 2
             ],
         )
     )
