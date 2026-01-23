@@ -1,6 +1,6 @@
 -i https://pypi.org/simple
 aiohappyeyeballs==2.6.1; python_version >= '3.9'
-aiohttp==3.12.15; python_version >= '3.9'
+aiohttp==3.13.3; python_version >= '3.9'
 aiosignal==1.4.0; python_version >= '3.9'
 appdirs==1.4.4
 attrs==25.3.0; python_version >= '3.8'
